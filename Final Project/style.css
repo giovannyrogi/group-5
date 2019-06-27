@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
 header {
@@ -9,7 +10,11 @@ header {
   width: 100%;
   z-index: 10;
   color: white;
-  padding-left: 15px;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100px;
+
 }
 
 nav {
@@ -31,6 +36,8 @@ nav li {
   font-size: 12px;
   display: inline-block;
   width: 100px;
+  border-right: groove;
+  text-align: center;
 
 }
 
@@ -67,10 +74,69 @@ footer p {
 
 .team{
   padding-top: 20px;
-  padding-left: 15px;
+  padding-left: 30px;
+  padding-bottom: 30px
   font-style: oblique;
   font-family: cursive;
   font-variant: small-caps;
+}
+
+.webposition{
+  height: 250px;
+  text-align: center;
+  font-style: oblique;
+  font-family: monospace;
+  border-style: outset solid double;
+  border-width: 10px;
+  border-left: none;
+  border-right: none;
+  border-color: teal;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.webinfo1{
+  padding-top:5px;
+  width: 330px;
+  margin-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 55px;
+  border-width: 5px;
+  border-right: outset;
+  border-color: teal;
+}
+
+.webinfo2 {
+  margin: -253px auto;
+  width: 310px;
+  padding-right: 30px;
+  border-width: 5px;
+  border-right: outset;
+  border-color: teal;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.webinfo3{
+  margin: -255px 870px;
+  width: 350px;
+  border-radius: 15px;
+  border-width: 5px;
+}
+
+.websubtitle{
+  padding-top: 3px;
+  margin: 500px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: groove;
+
+  border-color: red;
+  border-width: 2px;
+  border-radius: 15px;
+
+
 }
 
 .container {
@@ -82,7 +148,7 @@ footer p {
 }
 
 .jumbotron {
-  height: 600px;
+  height: 400px;
   background-image: url("web2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -185,16 +251,22 @@ footer p {
   background-image: url("callus.png");
   background-repeat: no-repeat;
   background-size: 150px;
-  height: 250px;
   background-position: center;
+  height: 150px;
+  margin: 490px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .homeicon2{
   background-image: url("ic_consultan.png");
   background-repeat: no-repeat;
   background-size: 150px;
-  height: 300px;
   background-position: center;
+  height: 150px;
+  margin: 490px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   cursor: pointer;
 
 }
@@ -204,7 +276,10 @@ footer p {
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: center;
-  height: 350px;
+  height: 150px;
+  margin: 490px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   cursor: pointer;
 }
 
