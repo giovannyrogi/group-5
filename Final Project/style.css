@@ -1,0 +1,238 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  color: white;
+  padding-left: 15px;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+a{
+  color: white;
+  text-decoration-line: none;
+  font-size: 13px;
+
+}
+
+nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 100px;
+
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  background-size: px;
+  color: #fff;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.team{
+  padding-top: 20px;
+  padding-left: 15px;
+  font-style: oblique;
+  font-family: cursive;
+  font-variant: small-caps;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url("web2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.teambackground{
+  height: 250px;
+  background-image: url("who-we-are-banner-2.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ourteam{
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-style: oblique;
+  font-family: monospace;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+
+}
+
+.supporting .col {
+  font-family: cursive;
+  text-align: center;
+  width: 940px;
+  height: 200px;
+  padding-top: 10px;
+
+}
+
+
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+.homeicon1 {
+  background-image: url("callus.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height: 250px;
+  background-position: center;
+}
+
+.homeicon2{
+  background-image: url("ic_consultan.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height: 300px;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.homeicon3{
+  background-image: url("table.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  height: 350px;
+  cursor: pointer;
+}
+
+.col1{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col2{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col3{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
