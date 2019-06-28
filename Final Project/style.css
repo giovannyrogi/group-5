@@ -12,11 +12,9 @@ header {
   color: white;
   background-image: url("");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position:right top;
   background-size: 100px;
-
 }
-
 nav {
   margin: 0;
   padding: 20px 0;
