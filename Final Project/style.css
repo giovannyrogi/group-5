@@ -1,6 +1,9 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
+  height: auto;
+  width: auto;
+  background-image: url("papper3.jpg");
 
 }
 
@@ -8,23 +11,21 @@ header {
   background-color: #333333;
   position: fixed;
   width: 100%;
+  height: 65px;
   z-index: 10;
   color: white;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-position:right top;
-  background-size: 100px;
 }
+
 nav {
   margin: 0;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 a{
   color: white;
   text-decoration-line: none;
   font-size: 13px;
-
+  margin: auto;
 }
 
 nav li {
@@ -35,14 +36,20 @@ nav li {
   display: inline-block;
   width: 100px;
   border-right: groove;
-  text-align: center;
+  text-align:center;
 
 }
 
 main {
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 60px;
+}
+
+main2 {
+  text-align: center;
+  position: relative;
+  top: -40px;
 }
 
 main h1 {
@@ -51,7 +58,7 @@ main h1 {
   font-weight: 600;
   font-size: 70px;
   margin-top: 0px;
-  padding-top: 80px;
+  padding-top: 30px;
   margin-bottom: 80px;
   text-transform: uppercase;
 }
@@ -70,13 +77,37 @@ footer p {
   font-size: 11px;
 }
 
+section{
+  margin-bottom: -100px;
+}
+
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+/* NOTE:width: 1600px;*/
+}
+
 .team{
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 30px
-  font-style: oblique;
   font-family: cursive;
   font-variant: small-caps;
+  font-size: 20px;
+  color: teal;
+}
+
+.team h2{
+  border-bottom: outset;
+  border-width: 5px;
+  margin-right: 920px;
+  border-color: red;
+
+}
+
+.team li{
+  font-family: cursive;
+  color: black;
 }
 
 .webposition{
@@ -97,7 +128,7 @@ footer p {
   padding-top:5px;
   width: 330px;
   margin-left: 30px;
-  padding-right: 170px;
+  padding-right: 30px;
   padding-bottom: 55px;
   border-width: 5px;
   border-right: outset;
@@ -107,7 +138,7 @@ footer p {
 .webinfo2 {
   margin: -253px auto;
   width: 310px;
-  padding-right: 150px;
+  padding-right: 30px;
   border-width: 5px;
   border-right: outset;
   border-color: teal;
@@ -116,7 +147,7 @@ footer p {
 }
 
 .webinfo3{
-  margin: -255px 1000px;
+  margin: -255px 870px;
   width: 350px;
   border-radius: 15px;
   border-width: 5px;
@@ -129,29 +160,29 @@ footer p {
   margin-bottom: 30px;
   text-align: center;
   border-bottom: groove;
-
   border-color: red;
   border-width: 2px;
   border-radius: 15px;
-
-
 }
 
 .container {
   max-width: 940px;
   margin: 0 auto;
-  padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
 }
 
 .jumbotron {
-  height: 400px;
+  height: 330px;
   background-image: url("web2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-bottom: outset;
+  border-top: inset;
+  border-color: orange;
+  border-width: 2px;
 }
 
 .teambackground{
@@ -172,7 +203,7 @@ footer p {
   font-family: monospace;
 }
 
-.btn-main {
+.btn-order {
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -182,6 +213,10 @@ footer p {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  border-style: outset double solid;
+  border-width: thick;
+  border-radius: 20px;
+  border-color: teal;
 }
 
 .btn-default {
@@ -193,6 +228,8 @@ footer p {
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 20px;
+  border: groove;
+
 }
 
 .supporting {
@@ -245,58 +282,70 @@ footer p {
   border: 2px solid #333333;
 }
 
+.prosesorder{
+  height: 500px;
+}
+
 .homeicon1 {
   background-image: url("callus.png");
-  background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 120px;
+  background-repeat: no-repeat ;
   background-position: center;
+  margin-left: 80px;
   height: 150px;
-  margin: 490px;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  width: 150px;
 }
 
 .homeicon2{
   background-image: url("ic_consultan.png");
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 120px;
   background-position: center;
+  margin-left: 120px;
   height: 150px;
-  margin: 490px;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  cursor: pointer;
-
+  width: 150px;
 }
 
 .homeicon3{
   background-image: url("table.png");
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 125px;
   background-position: center;
+  margin-left: 95px;
   height: 150px;
-  margin: 490px;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  cursor: pointer;
+  width: 150px;
+  padding-top: 8px;
+}
+
+.homeicon{
+  height: 500px;
+  font-family: cursive;
+  letter-spacing: 1.5px;
 }
 
 .col1{
-  margin: 0 auto;
   text-align: center;
+  margin-top: 25px;
+  margin-right: 900px;
+  margin-left: 20px;
+  padding-top: 15px;
 }
 
 .col2{
-  margin: 0 auto;
   text-align: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: center;
+  margin: -380px auto;
+  padding-bottom: 0px;
+  width: 400px;
 }
 
 .col3{
-  margin: 0 auto;
   text-align: center;
+  margin: -340px 890px;
+  width: 350px;
 }
-
-
 
 @media (max-width: 500px) {
   main h1 {
