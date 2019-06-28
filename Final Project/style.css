@@ -99,7 +99,7 @@ footer p {
   padding-top:5px;
   width: 330px;
   margin-left: 30px;
-  padding-right: 30px;
+  padding-right: 170px;
   padding-bottom: 55px;
   border-width: 5px;
   border-right: outset;
@@ -109,7 +109,7 @@ footer p {
 .webinfo2 {
   margin: -253px auto;
   width: 310px;
-  padding-right: 30px;
+  padding-right: 150px;
   border-width: 5px;
   border-right: outset;
   border-color: teal;
@@ -118,7 +118,7 @@ footer p {
 }
 
 .webinfo3{
-  margin: -255px 870px;
+  margin: -255px 1000px;
   width: 350px;
   border-radius: 15px;
   border-width: 5px;
