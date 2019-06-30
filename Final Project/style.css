@@ -1,179 +1,47 @@
-html, body {
-  margin: auto;
-  padding: auto;
-  height: auto;
-  width: auto;
-  background-image: url("papper3.jpg");
-
+*{
+  margin: 0;
+  padding: 0;
 }
 
-header {
+.wrapper{
+  width: 100%;
+}
+
+/* background */
+body{
+  background-image: url("papper3.jpg");
+}
+
+/* background header*/
+header{
   background-color: #333333;
   position: fixed;
   width: 100%;
-  height: 65px;
+  height: 35px;
   z-index: 10;
   color: white;
-}
-
-nav {
-  margin: 0;
-  padding: 10px 0;
 }
 
 a{
   color: white;
   text-decoration-line: none;
-  font-size: 13px;
-  margin: auto;
-}
-
-nav li {
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  display: inline-block;
-  width: 100px;
-  border-right: groove;
-  text-align:center;
-
-}
-
-main {
-  text-align: center;
-  position: relative;
-  top: 60px;
-}
-
-main2 {
-  text-align: center;
-  position: relative;
-  top: -40px;
-}
-
-main h1 {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 70px;
-  margin-top: 0px;
-  padding-top: 30px;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-}
-
-footer {
-  background-color: #333;
-  background-size: px;
-  color: #fff;
-  padding: 10px;
-  margin-top: 50px;
-}
-
-footer p {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
   font-size: 11px;
 }
 
-section{
-  margin-bottom: -100px;
+nav li{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  width: 70px;
+  border-right: ridge;
+  text-align:center;
+  margin: 8px 0 0 0;
 }
 
-#wrapper{
-  margin-left: auto;
-  margin-right: auto;
-/* NOTE:width: 1600px;*/
-}
-
-.team{
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-bottom: 30px
-  font-family: cursive;
-  font-variant: small-caps;
-  font-size: 20px;
-  color: teal;
-}
-
-.team h2{
-  border-bottom: outset;
-  border-width: 5px;
-  margin-right: 920px;
-  border-color: red;
-
-}
-
-.team li{
-  font-family: cursive;
-  color: black;
-}
-
-.webposition{
-  height: 250px;
-  text-align: center;
-  font-style: oblique;
-  font-family: monospace;
-  border-style: outset solid double;
-  border-width: 10px;
-  border-left: none;
-  border-right: none;
-  border-color: teal;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.webinfo1{
-  padding-top:5px;
-  width: 330px;
-  margin-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 55px;
-  border-width: 5px;
-  border-right: outset;
-  border-color: teal;
-}
-
-.webinfo2 {
-  margin: -253px auto;
-  width: 310px;
-  padding-right: 30px;
-  border-width: 5px;
-  border-right: outset;
-  border-color: teal;
-  padding-top: 5px;
-  padding-bottom: 1px;
-}
-
-.webinfo3{
-  margin: -255px 870px;
-  width: 350px;
-  border-radius: 15px;
-  border-width: 5px;
-}
-
-.websubtitle{
-  padding-top: 3px;
-  margin: 500px;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  text-align: center;
-  border-bottom: groove;
-  border-color: red;
-  border-width: 2px;
-  border-radius: 15px;
-}
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding-bottom: 5px;
-  text-align: center;
-}
-
-.jumbotron {
-  height: 330px;
+/* penganturan banner*/
+.banner{
+  height: 130px;
   background-image: url("web2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -185,32 +53,129 @@ section{
   border-width: 2px;
 }
 
-.teambackground{
-  height: 250px;
-  background-image: url("who-we-are-banner-2.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* pengaturan judul */
+.judul{
+  text-align: center;
+  position: relative;
+  top: 45px;
 }
 
-.ourteam{
-  padding: 25px;
-  color: white;
+.judul2{
+  display: none;
+}
+
+.subjudul{
   text-align: center;
-  font-size: 70px;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 30px 130px 20px 130px;
+  border-bottom: groove;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.contentposition{
+  width: 100%;
   font-style: oblique;
   font-family: monospace;
+  font-size: 10px;
+  border-style: outset solid double;
+  border-width: 8px;
+  border-top-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-color: teal;
+  padding: 10px 0 10px 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.btn-order {
+.layanan1{
+  margin: 0 20px 0 20px;
+  padding: 15px 0 20px 0;
+  border-bottom: ridge;
+  border-radius: 3px;
+  border-color: orange;
+  border-width: 1.5px;
+}
+
+.layanan2{
+  margin: 0 20px 10px 20px;
+  padding: 20px 0 20px 0;
+  border-bottom: ridge;
+  border-radius: 3px;
+  border-color: orange;
+  border-width: 1.5px;
+}
+
+.layanan3{
+  margin: 0 20px 0 20px;
+  padding: 10px 0 10px 0;
+}
+
+.contentposition2{
+  width: 100%;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 11px;
+  text-align: center;
+}
+
+.contentposition2 p{
+  margin: 10px 0 0 0;
+}
+
+.icon1{
+  margin-right: 5px;
+  height: 100px;
+  background-image: url("callus.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon2{
+  margin: 35px 5px 10px 0;
+  height: 83px;
+  background-image: url("ic_consultan.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon3{
+  margin: 35px 5px 10px 0;
+  height: 83px;
+  background-image: url("table.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.infotransaksi1{
+  margin: 0 10px 0 10px;
+}
+
+.infotransaksi2{
+  margin: 0 10px 0 10px;
+}
+
+.infotransaksi3{
+  margin: 0 10px 30px 10px;
+}
+
+.btndesain{
+  margin: 5px 130px 30px 130px;
+  padding: 8px;
+  text-align: center;
+  position: relative;
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 10px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
   border-style: outset double solid;
@@ -219,142 +184,528 @@ section{
   border-color: teal;
 }
 
-.btn-default {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1.3px;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  border: groove;
-
+/* halaman team */
+.bannerteam{
+  background-image: url("who-we-are-banner-2.png");
+  height: 130px;
+  margin: 0 0 20px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: outset;
+  border-top: inset;
+  border-color: orange;
+  border-width: 2px;
 }
 
-.supporting {
-  padding-top: 80px;
-  padding-bottom: 100px;
-
+.judulteam{
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-style: oblique;
+  font-family: monospace;
 }
 
-.supporting .col {
+.contentpositionteam{
+  margin: 0 0 0 20px;
+}
+
+.contentteam{
   font-family: cursive;
+  font-variant: small-caps;
+  font-size: 13px;
+  color: teal;
+}
+
+.contentteam li{
+  margin: 15px 0 15px 25px;
+  color: black;
+}
+
+.contentteam h2{
+  margin-top: 4px;
+  border-bottom: outset;
+  border-width: 1,5px;
+  margin-right: 150px;
+  border-color: red;
+}
+
+footer{
+  background-color: #333333;
+  color: white;
   text-align: center;
-  width: 940px;
-  height: 200px;
-  padding-top: 10px;
-
+  font-size: 9px;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+  padding: 13px 0 13px 0;
 }
 
-
-
-.supporting img {
-  height: 32px;
-}
-
-.supporting h2 {
-  font-weight: 600;
-  font-size: 23px;
-  text-transform: uppercase;
-
-}
-
-.supporting p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
-
-.supporting a {
-  background-color: white;
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 1.3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #333333;
-}
-
-.prosesorder{
-  height: 500px;
-}
-
-.homeicon1 {
-  background-image: url("callus.png");
-  background-size: 120px;
-  background-repeat: no-repeat ;
-  background-position: center;
-  margin-left: 80px;
-  height: 150px;
-  width: 150px;
-}
-
-.homeicon2{
-  background-image: url("ic_consultan.png");
-  background-repeat: no-repeat;
-  background-size: 120px;
-  background-position: center;
-  margin-left: 120px;
-  height: 150px;
-  width: 150px;
-}
-
-.homeicon3{
-  background-image: url("table.png");
-  background-repeat: no-repeat;
-  background-size: 125px;
-  background-position: center;
-  margin-left: 95px;
-  height: 150px;
-  width: 150px;
-  padding-top: 8px;
-}
-
-.homeicon{
-  height: 500px;
+footer p{
   font-family: cursive;
-  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
-.col1{
-  text-align: center;
-  margin-top: 25px;
-  margin-right: 900px;
-  margin-left: 20px;
-  padding-top: 15px;
-}
-
-.col2{
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 30px;
-  text-align: center;
-  margin: -380px auto;
-  padding-bottom: 0px;
-  width: 400px;
-}
-
-.col3{
-  text-align: center;
-  margin: -340px 890px;
-  width: 350px;
-}
-
-@media (max-width: 500px) {
-  main h1 {
-    font-size: 50px;
-    padding: 0 40px;
-
+/* tampilan untuk iphone 6/7/8 plus */
+@media only screen and (min-width: 414px){
+  .wrapper{
+    width: 414px;
   }
 
-  .supporting .col {
+  .bannerteam{
+    height: 140px;
+    margin: 0 0 30px 0;
+  }
+
+  .judulteam{
+    padding-top: 60px;
+  }
+
+  .contentteam h2{
+    margin-top: 4px;
+    margin-right: 188px;
+  }
+
+  /* halaman home */
+  .subjudul{
+    font-size: 13px;
+    margin: 25px 150px 10px 150px;
+    border-width: 2px;
+  }
+
+  .contentposition{
+    font-size: 11px;
+    border-width: 8px;
+    border-top-width: 3px;
+    padding: 25px 0 25px 0;
+  }
+
+  .layanan1{
+    margin: 0 20px 0 20px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-width: 2px;
+  }
+
+  .layanan2{
+    margin: 0 20px 0 20px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-width: 2px;
+  }
+
+  .layanan3{
+    margin: 0 20px 0 20px;
+  }
+
+  .contentposition2{
+    font-size: 11px;
+  }
+
+  .infotransaksi1{
+    margin: 0 30px 0 30px;
+  }
+
+  .infotransaksi2{
+    margin: 0 30px 0 30px;
+  }
+
+  .infotransaksi3{
+    margin: 0 30px 35px 30px;
+  }
+
+  .btndesain{
+    margin: 13px 140px 0 140px;
+    padding: 5px;
+  }
+
+  footer{
+    font-size: 11px;
+    margin: 30px 0 0 0;
+    padding: 12px 0 12px 0;
+  }
+
+}
+
+/* resolusi untuk ipad */
+@media only screen and (min-width: 768px){
+  .wrapper{
+    width: 768px;
+  }
+
+  /*halaman home */
+  header{
+    height: 50px;
+  }
+
+  a{
+    font-size: 15px;
+  }
+
+  nav li{
+    font-weight: 600;
+    width: 120px;
+    margin: 14px 0 0 0;
+    padding: 4px 0 0 0;
+  }
+
+  /* penganturan banner*/
+  .banner{
+    height: 215px;
+    border-width: 3px;
+  }
+
+  /* pengaturan judul */
+  .judul{
+    display: none;
+  }
+
+  .judul2{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 75px;
+  }
+
+  .subjudul{
+    font-size: 15px;
+    margin: 35px 315px 20px 315px;
+    border-bottom: groove;
+    border-color: red;
+  }
+
+  .contentposition{
     width: 100%;
+    font-size: 18px;
+    border-width: 10px;
+    border-top-width: 4px;
+    border-left: none;
+    border-right: none;
+    padding: 25px 0 25px 0;
   }
+
+  .layanan1{
+    margin: 0 50px 0 50px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .layanan2{
+    margin: 0 50px 0 50px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+
+  .layanan3{
+    margin: 0 50px 0 50px;
+    padding-bottom: 15px;
+  }
+
+  .contentposition2{
+    font-size: 18px;
+  }
+
+  .icon1{
+    margin-right: 5px;
+  }
+
+  .icon2{
+    margin-right: 5px;
+  }
+
+  .icon3{
+    margin-right: 5px;
+  }
+
+  .contentposition2 p{
+    margin: 15px 20px 50px 20px;
+  }
+
+  .btndesain{
+    margin: 50px 300px 0 300px;
+    padding: 10px;
+  }
+
+  /* halaman Team */
+  .bannerteam{
+    height: 180px;
+    margin: 0 0 60px 0;
+    border-width: 2px;
+  }
+
+  .judulteam{
+    padding-top: 80px;
+    font-size: 60px;
+  }
+
+  .contentpositionteam{
+    margin: 0 0 0 25px;
+  }
+
+  .contentteam{
+    font-size: 16px;
+  }
+
+  .contentteam li{
+    margin: 25px 0 15px 35px;
+  }
+
+  .contentteam h2{
+    margin-top: 10px;
+    border-width: 1,5px;
+    margin-right: 485px;
+  }
+
+  footer{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 50px 0 0 0;
+    padding: 17px 0 15px 0;
+  }
+}
+
+/*resolusi dekstop */
+@media only screen and (min-width: 1000px) {
+  .wrapper{
+    width: 1000px;
+  }
+
+  /* halaman home */
+  header{
+    height: 50px;
+  }
+
+  a{
+    font-size: 15px;
+  }
+
+  nav li{
+    font-weight: 600;
+    width: 120px;
+    margin: 14px 0 0 0;
+    padding: 4px 0 0 0;
+  }
+
+  /* penganturan banner*/
+  .banner{
+    height: 260px;
+    border-width: 5px;
+  }
+
+  /* pengaturan judul */
+  .judul{
+    display: none;
+  }
+
+  .judul2{
+    font-size: 22px;
+    top: 80px;
+  }
+
+  .subjudul{
+    font-size: 22px;
+    margin: 80px 400px 30px 400px;
+    border-bottom: groove;
+    border-color: red;
+  }
+
+  .contentposition{
+    font-size: 20px;
+    border-width: 12px;
+    border-top-width: 6px;
+    padding: 30px 0 30px 0;
+  }
+
+  .layanan1{
+    margin: 0 40px 0 40px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-width: 4px;
+  }
+
+  .layanan2{
+    margin: 0 40px 0 40px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    border-width: 4px;
+  }
+
+  .layanan3{
+    margin: 0 40px 0 40px;
+    padding-bottom: 20px;
+  }
+
+  .contentposition2{
+    font-size: 22px;
+  }
+
+  .icon1{
+    margin-right: 5px;
+  }
+
+  .icon2{
+    margin-right: 5px;
+  }
+
+  .icon3{
+    margin-right: 5px;
+  }
+
+  .contentposition2 p{
+    margin: 15px 60px 60px 60px;
+  }
+
+  .btndesain{
+    margin: 80px 400px 60px 400px;
+    padding: 15px;
+  }
+
+  /* halaman Team */
+  .bannerteam{
+    width: 100%;
+    height: 250px;
+    margin: 0 0 50px 0;
+    border-color: orange;
+    border-width: 3px;
+  }
+
+  .judulteam{
+    padding-top: 100px;
+    font-size: 80px;
+  }
+
+  .contentpositionteam{
+    margin: 0 0 0 40px;
+  }
+
+  .contentteam{
+    font-size: 15px;
+  }
+
+  .contentteam h2{
+    margin-top: 4px;
+    margin-right: 710px;
+  }
+
+  footer{
+    font-size: 12px;
+    margin: 25px 0 0 0;
+    padding: 15px 0 15px 0;
+  }
+}
+
+/*resolusi dekstop */
+@media only screen and (min-width: 1280px) {
+  .wrapper{
+    width: 1280px;
+  }
+
+  header{
+    height: 60px;
+  }
+
+  a{
+    font-size: 16px;
+  }
+
+  nav li{
+    width: 140px;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  /* penganturan banner*/
+  .banner{
+    height: 330px;
+    border-width: 7px;
+  }
+
+  /* pengaturan judul */
+  .judul{
+    display: none;
+  }
+
+  .judul2{
+    font-size: 30px;
+    top: 90px;
+  }
+
+  .subjudul{
+    font-size: 22px;
+    margin: 80px 500px 40px 500px;
+  }
+
+  .contentposition{
+    padding: 30px 0 30px 0;
+  }
+
+  .layanan1{
+    margin: 0 100px 0 100px;
+    padding-bottom: 60px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    border-width: 4px;
+  }
+
+  .layanan2{
+    margin: 0 100px 0 100px;
+    padding-bottom: 60px;
+    margin-bottom: 45px;
+    border-width: 4px;
+  }
+
+  .layanan3{
+    margin: 0 100px 0 100px;
+    padding-bottom: 30px;
+  }
+
+  .btndesain{
+    margin: 80px 510px 60px 510px;
+    padding: 18px;
+  }
+
+  /* halaman Team */
+  .bannerteam{
+    height: 330px;
+    margin: 0 0 50px 0;
+    border-color: orange;
+    border-width: 3px;
+  }
+
+  .judulteam{
+    padding-top: 130px;
+    font-size: 110px;
+  }
+
+  .contentpositionteam{
+    margin: 0 0 0 60px;
+  }
+
+  .contentteam{
+    font-size: 20px;
+  }
+
+  .contentteam h2{
+    margin-top: 6px;
+    margin-right: 895px;
+  }
+
+  footer{
+    font-size: 16px;
+    margin: 25px 0 0 0;
+    padding: 25px 0 25px 0;
+  }
+}
+
+/*resolusi dekstop */
+@media only screen and (min-width: 1360px) {
+  .wrapper{
+    width: 1360px;
+  }
+
+
 }

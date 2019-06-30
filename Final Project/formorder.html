@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styleorder.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+      function angkasaja(evt) {
+      var charCode = (evt.which) ? evt.which : event.keyCode
+      if (charCode > 31 && (charCode < 48 || charCode > 57))
+      return false;
+      return true;
+      }
+    </script>
+    <title> Form Order </title>
+  </head>
+  <body>
+    <header>
+        <div class="backgroundheader"></div>
+    </header>
+    <div class="wrapper">
+      <div class="content">
+        <h1> FORM PEMESANAN </h1><br>
+        <form class="" action="" method="post">
+          <div class="title">
+            <label for="nama">Nama </label>
+            <p>Nama Lengkap</p>
+            <input type="text" name="nama" id="nama" value="" required><br><br>
+            <label for="namaperusahaan"> Nama Bisnis </label>
+            <p class="keterangan">Nama Perusahaan / Organisasi / Bisnis Pribadi</p>
+            <input type="text" name="namaperusahaan" id="namaperusahaan" value=""><br><br>
+            <label for="email"> Email</label>
+            <p>contoh@gmail.com</p>
+            <input type="text" name="email" id="email" value="" required><br><br>
+            <label for="contact"> Telepon  </label>
+            <p>08xxx</p>
+            <input type="text" onkeypress="return angkasaja(event)" name="contact" value="" maxlength="12" minlength="11"  required><br><br>
+            <label for="pesan"> Pesan</label><br>
+            <textarea name="pesan" rows="8" cols="40"></textarea><br>
+            <div class="button">
+              <div class="btn-kirim">
+                <input type="submit" name="submit" value="KIRIM">
+              </div>
+              <div class="btn-cancel">
+                <a href="./home.html">Batal</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+  </footer>
+</html>
