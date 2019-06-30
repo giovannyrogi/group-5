@@ -232,6 +232,85 @@ nav li{
   border-color: red;
 }
 
+/* halaman contact */
+.bannercon{
+  background-image: url("contact.jpg");
+  height: 130px;
+  margin: 0 0 20px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: outset;
+  border-top: inset;
+  border-color: green;
+  border-width: 2px;
+}
+
+.contact1 h1{
+  margin: 40px 40px 30px 40px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  border-style: groove;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: teal;
+  border-color: teal;
+  padding: 3px;
+}
+
+.iconcon{
+  margin: 0 15px 10px 0;
+  padding: 20px 0 0 0;
+  height: 39px;
+  background-image: url("phone.png");
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact1{
+    margin: 0 60px 0 60px;
+    padding: 0 0 20px 0;
+    color: teal;
+}
+
+.contactisi p{
+  margin: 0 8px 0 8px;
+  padding: 10px 0 10px 0;
+  text-align:center;
+  font-family: cursive;
+  border-bottom:ridge;
+  border-color: teal;
+  border-width: thin;
+}
+
+.contactisi2 p{
+  margin: 0 8px 0 8px;
+  padding: 10px 0 10px 0;
+  text-align:center;
+  font-family: cursive;
+  border-bottom:ridge;
+  border-color: teal;
+  border-width: thin;
+}
+
+.contactisi3 a{
+  font-family: cursive;
+  font-size: 12px;
+  border-right: ridge;
+  border-width: thin;
+  border-color: teal;
+  padding: 0 15px 0 15px;
+  color: teal;
+}
+
+.contactisi3 #instagram{
+  border-right: none;
+}
+
 footer{
   background-color: #333333;
   color: white;
@@ -247,12 +326,15 @@ footer p{
   text-transform: uppercase;
 }
 
+
+
 /* tampilan untuk iphone 6/7/8 plus */
 @media only screen and (min-width: 414px){
   .wrapper{
     width: 414px;
   }
 
+  /* halaman Team */
   .bannerteam{
     height: 140px;
     margin: 0 0 30px 0;
@@ -318,6 +400,24 @@ footer p{
   .btndesain{
     margin: 13px 140px 0 140px;
     padding: 5px;
+  }
+
+  /*halaman Contact */
+  .bannercon{
+    height: 160px;
+    margin: 0 0 20px 0;
+    border-top: inset;
+    border-width: 3px;
+  }
+
+  .contactisi3 a{
+    font-family: cursive;
+    font-size: 12px;
+    border-right: ridge;
+    border-width: thin;
+    border-color: teal;
+    padding: 0 20px 0 20px;
+    color: teal;
   }
 
   footer{
@@ -431,14 +531,14 @@ footer p{
 
   /* halaman Team */
   .bannerteam{
-    height: 180px;
+    height: 215px;
     margin: 0 0 60px 0;
     border-width: 2px;
   }
 
   .judulteam{
-    padding-top: 80px;
-    font-size: 60px;
+    padding-top: 90px;
+    font-size: 70px;
   }
 
   .contentpositionteam{
@@ -459,10 +559,57 @@ footer p{
     margin-right: 485px;
   }
 
+  /*halaman Contact */
+  .bannercon{
+    height: 215px;
+    border-width: 5px;
+  }
+
+  .contact1 h1{
+    margin: 80px 210px 30px 210px;
+    font-size: 22px;
+    padding: 3px;
+  }
+
+  .iconcon{
+    height: 40px;
+    background-size: 100px;
+  }
+
+.contact1{
+      font-family: cursive;
+      font-size: 16px;
+  }
+
+.contactisi p{
+    margin: 0 140px 0 140px;
+    padding: 10px 0 10px 0;
+    border-width: 2px;
+  }
+
+.contactisi2 p{
+    margin: 0 140px 0 140px;
+    padding: 10px 0 10px 0;
+    border-width: 2px;
+  }
+
+.contactisi3 a{
+    font-size: 16px;
+  }
+
+.contactisi3 #facebook{
+  margin-left: 160px;
+}
+
+.contactisi3 #instagram{
+  border-right: none;
+
+}
+
   footer{
     font-size: 14px;
     font-weight: 500;
-    margin: 50px 0 0 0;
+    margin: 65px 0 0 0;
     padding: 17px 0 15px 0;
   }
 }
@@ -591,8 +738,57 @@ footer p{
     margin-right: 710px;
   }
 
+  /* halaman Contact */
+  .bannercon{
+    height: 250px;
+    margin: 0 0 20px 0;
+    border-width: 4px;
+  }
+
+  .contact1 h1{
+    margin: 80px 320px 30px 320px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .iconcon{
+    margin: 0 15px 10px 0;
+    padding: 20px 0 0 0;
+    height: 60px;
+    background-size: 120px;
+  }
+
+  .contact1{
+    font-size: 18px;
+  }
+
+  .contactisi p{
+    margin: 0 230px 0 230px;
+    padding: 10px 0 10px 0;
+    border-width: 2px;
+  }
+
+  .contactisi2 p{
+    margin: 0 230px 0 230px;
+    padding: 10px 0 10px 0;
+    border-width: 2px;
+  }
+
+  .contactisi3 a{
+    font-size: 18px;
+    border-right: ridge;
+    border-width: thin;
+    border-color: teal;
+    padding: 0 15px 0 15px;
+    color: teal;
+  }
+
+  .contactisi3 #facebook{
+    margin-left: 275px;
+  }
+
   footer{
-    font-size: 12px;
+    font-size: 14px;
     margin: 25px 0 0 0;
     padding: 15px 0 15px 0;
   }
@@ -694,18 +890,62 @@ footer p{
     margin-right: 895px;
   }
 
+  /* halaman Contact */
+  .bannercon{
+    height: 330px;
+    margin: 0 0 20px 0;
+    border-width: 5px;
+  }
+
+  .contact1 h1{
+    margin: 80px 450px 30px 450px;
+    font-size: 20px;
+    padding: 7px;
+  }
+
+  .iconcon{
+    margin: 0 15px 10px 0;
+    padding: 20px 0 0 0;
+    height: 60px;
+    background-size: 130px;
+  }
+
+  .contact1{
+    font-size: 20px;
+  }
+
+  .contactisi p{
+    margin: 0 310px 0 310px;
+    padding: 10px 0 10px 0;
+    border-width: 3px;
+  }
+
+  .contactisi2 p{
+    margin: 0 310px 0 310px;
+    padding: 10px 0 10px 0;
+    border-width: 3px;
+  }
+
+  .contactisi3 a{
+    font-size: 20px;
+    border-right: ridge;
+    border-width: 2px;
+    border-color: teal;
+    padding: 0 20px 0 20px;
+    color: teal;
+  }
+
+  .contactisi3 #facebook{
+    margin-left: 390px;
+  }
+
   footer{
     font-size: 16px;
-    margin: 25px 0 0 0;
+    margin: 40px 0 0 0;
     padding: 25px 0 25px 0;
   }
 }
 
 /*resolusi dekstop */
 @media only screen and (min-width: 1360px) {
-  .wrapper{
-    width: 1360px;
-  }
-
-
 }
